@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  font-family: 'montserrat', sans-serif;
+}
+
+/*  Estilizando o menu de navegação */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-color: #1e1e1e;
+}
+
+nav ul li {
+  flex: 4;
+}
+
+nav ul li a {
+  display: flex;
+  padding: 13px;
+  color: rgb(255, 240, 240);
+  text-decoration: none;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: #1c3147;
+}
+
+/* Estilizando o Cabeçalho */
+header {
+  background-color: #00bcd4;
+  color: rgb(255, 255, 255);
+  padding: 30px 0;
+  text-align: center;
+}
+
+/* Estilizando o conteudo principal */
+main {
+  padding: 0;
+  max-width: 950px;
+  margin: 70px;
+
+  
+}
+
+section {
+  background-color: #096272;
+  text-align: left;
+  max-width: 1000px;
+  border-radius: 5px;
+  min-height: 200px;
+  box-shadow: 0 4px 8px ;
+  
+}
+
+
+/* Fazendo a estilização do input e textarea */
+input,textarea {
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  
+}
+
+button {
+  color: green;
+  
+}
+
+/* Estilização do Rodapé */
+footer {
+  color: aliceblue;
+  text-align: center;
+}
+
